@@ -203,6 +203,14 @@
     "image_with_text_nmWfEV": {
       "type": "image-with-text",
       "blocks": {
+        "caption_WkWTFK": {
+          "type": "caption",
+          "settings": {
+            "caption": "Contract Manufacturing Solutions",
+            "text_style": "subtitle",
+            "text_size": "medium"
+          }
+        },
         "heading_8cfLgG": {
           "type": "heading",
           "settings": {
@@ -227,18 +235,23 @@
           "type": "button",
           "settings": {
             "button_label": "Get Started",
-            "button_link": "",
+            "button_link": "shopify://collections/frontpage",
             "button_style_secondary": false
           }
         }
       },
       "block_order": [
+        "caption_WkWTFK",
         "heading_8cfLgG",
         "text_8txMdj",
         "custom_html_Jde4a6",
         "button_RjLygw"
       ],
-      "disabled": true,
+      "custom_css": [
+        ".image-with-text__media {border-radius: 24px;}",
+        ".image-with-text__text--caption {color: #0b2848; padding: 6px 12px; background: #e0f8ac; font-size: 14px; line-height: 20px; border-radius: 50px; width: fit-content;}",
+        "h2 {color:#0B2848; font-size:36px; font-weight:700; line-height:48px;}"
+      ],
       "settings": {
         "image": "shopify://shop_images/Frame_481612.png",
         "height": "small",
