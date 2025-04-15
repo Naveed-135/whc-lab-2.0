@@ -3634,3 +3634,6 @@ details-disclosure > details {
 .items-center{
   align-items: center;
 }
+.fit-width{
+  width: fit-content;
+}
