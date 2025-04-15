@@ -3625,3 +3625,12 @@ details-disclosure > details {
   line-height: 20px;
   border-radius: 50px;
 }
+.flex{
+  display: flex;
+}
+.justify-center{
+  justify-content: center;
+}
+.items-center{
+  align-items: center;
+}
