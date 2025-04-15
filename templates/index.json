@@ -238,6 +238,9 @@
         "custom_html_Jde4a6",
         "button_RjLygw"
       ],
+      "custom_css": [
+        ".image-with-text__media{border-radius:24px;}"
+      ],
       "settings": {
         "image": "shopify://shop_images/Frame_481612.png",
         "height": "small",
