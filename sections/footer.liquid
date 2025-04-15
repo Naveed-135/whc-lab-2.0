@@ -1,6 +1,8 @@
 <footer class="footer">
   <div class="footer-top">
-    <div class="cta">{{ section.settings.cta_text }}</div>
+    {% if section.settings.footer_image %}
+      <img src="{{ section.settings.footer_image | image_url: width: 400 }}" alt="Footer Image" class="w-auto h-auto" />
+    {% endif %}
     <div class="contact">
       <a href="{{ section.settings.contact_link }}" class="contact-link">
         {{ section.settings.contact_text }} →
@@ -149,6 +151,11 @@
 {
   "name": "Footer",
   "settings": [
+    {
+      "type":"image_picker",
+      "id": "footer_image",
+      "label": "Footer Image"
+    },
     {
       "type": "text",
       "id": "cta_text",
