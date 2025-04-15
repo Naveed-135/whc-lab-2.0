@@ -1,307 +1,268 @@
 <style>
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.footer {
+    background-color: #f5f5f5;
+    padding: 4rem 0;
+    margin-top: 4rem;
 }
 
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    color: #333;
-}
-
-.container {
+.footer-container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
 }
 
-/* Header styles */
-header {
-    background-color: #fff;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 1000;
-}
-
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem 0;
-}
-
-.logo img {
-    max-height: 50px;
-}
-
-.nav-links {
-    display: flex;
-    gap: 1.5rem;
-}
-
-.nav-links a {
-    text-decoration: none;
-    color: #333;
-    font-weight: 500;
-    transition: color 0.3s;
-}
-
-.nav-links a:hover {
-    color: #4CAF50;
-}
-
-/* Hero section */
-.hero {
-    padding: 120px 0 60px;
-    background-color: #f5f5f5;
-    text-align: center;
-}
-
-.hero-content h1 {
-    font-size: 2.5rem;
-    color: #1a237e;
-    margin-bottom: 2rem;
-}
-
-.cta-button {
-    display: inline-block;
-    padding: 1rem 2rem;
-    background-color: #4CAF50;
-    color: white;
-    text-decoration: none;
-    border-radius: 30px;
-    font-weight: bold;
-    transition: background-color 0.3s;
-}
-
-.cta-button:hover {
-    background-color: #45a049;
-}
-
-/* Contact section */
-.contact-info {
-    text-align: center;
-    padding: 60px 0;
-}
-
-.contact-info h2 {
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
-}
-
-.email {
-    font-size: 2rem;
-    color: #1a237e;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-/* Footer */
-footer {
-    background-color: #f5f5f5;
-    padding: 2rem 0;
-    margin-top: 4rem;
-}
-
 .footer-content {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.footer-column {
+    flex: 1;
+    margin-right: 2rem;
+}
+
+.footer-column:last-child {
+    margin-right: 0;
+}
+
+.footer-logo img {
+    max-width: 150px;
     margin-bottom: 1rem;
 }
 
-.social-links {
-    display: flex;
-    gap: 1rem;
-}
-
-.social-links img {
-    width: 24px;
-    height: 24px;
-    transition: opacity 0.3s;
-}
-
-.social-links img:hover {
-    opacity: 0.8;
+.footer-heading {
+    color: #1a237e;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
 }
 
 .footer-links {
-    display: flex;
-    gap: 2rem;
-    justify-content: center;
+    list-style: none;
+}
+
+.footer-links li {
+    margin-bottom: 0.8rem;
 }
 
 .footer-links a {
     color: #666;
     text-decoration: none;
+    transition: color 0.3s;
 }
 
 .footer-links a:hover {
-    color: #333;
+    color: #4CAF50;
 }
 
-/* Responsive design */
+.footer-social {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.footer-social a {
+    width: 36px;
+    height: 36px;
+    background-color: #1a237e;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s;
+}
+
+.footer-social a:hover {
+    background-color: #4CAF50;
+}
+
+.footer-social img {
+    width: 20px;
+    height: 20px;
+    filter: brightness(0) invert(1);
+}
+
+.footer-bottom {
+    border-top: 1px solid #ddd;
+    padding-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-copyright {
+    color: #666;
+    font-size: 0.9rem;
+}
+
+.footer-legal {
+    display: flex;
+    gap: 2rem;
+}
+
+.footer-legal a {
+    color: #666;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: color 0.3s;
+}
+
+.footer-legal a:hover {
+    color: #4CAF50;
+}
+
 @media (max-width: 768px) {
-    .nav-links {
-        display: none;
-    }
-
-    .hero-content h1 {
-        font-size: 2rem;
-    }
-
-    .email {
-        font-size: 1.5rem;
-    }
-
     .footer-content {
+        flex-direction: column;
+    }
+
+    .footer-column {
+        margin-right: 0;
+        margin-bottom: 2rem;
+    }
+
+    .footer-bottom {
         flex-direction: column;
         text-align: center;
         gap: 1rem;
     }
 
-    .footer-links {
+    .footer-legal {
         flex-direction: column;
-        align-items: center;
         gap: 1rem;
-    }
-}
-
-@media (max-width: 480px) {
-    .hero-content h1 {
-        font-size: 1.5rem;
-    }
-
-    .cta-button {
-        padding: 0.8rem 1.5rem;
-    }
-
-    .container {
-        padding: 0 15px;
+        align-items: center;
     }
 }
 </style>
 
-<header>
-    <nav class="container">
-        <div class="logo">
-            {% if section.settings.logo %}
-                {{ section.settings.logo | image_url: width: 200 | image_tag: alt: shop.name }}
-            {% else %}
-                <img src="https://placehold.co/200x80/navy/white?text=WHC+Lab" alt="{{ shop.name }}">
-            {% endif %}
-        </div>
-        <div class="nav-links">
-            {% for link in section.settings.menu.links %}
-                <a href="{{ link.url }}">{{ link.title }}</a>
-            {% endfor %}
-        </div>
-    </nav>
-</header>
-
-<main class="container">
-    <section class="hero">
-        <div class="hero-content">
-            <h1>{{ section.settings.hero_heading }}</h1>
-            <a href="{{ section.settings.cta_link }}" class="cta-button">{{ section.settings.cta_text }} →</a>
-        </div>
-    </section>
-
-    <section class="contact-info">
-        <h2>{{ section.settings.contact_heading }}</h2>
-        <a href="mailto:{{ section.settings.contact_email }}" class="email">{{ section.settings.contact_email }}</a>
-    </section>
-</main>
-
-<footer>
-    <div class="container">
+<footer class="footer">
+    <div class="footer-container">
         <div class="footer-content">
-            <p>Copyright © {{ 'now' | date: "%Y" }} {{ shop.name }} | {{ section.settings.footer_credit }}</p>
-            <div class="social-links">
-                {% if section.settings.facebook_link != blank %}
-                    <a href="{{ section.settings.facebook_link }}" aria-label="Facebook" target="_blank">
-                        <img src="{{ 'facebook.png' | asset_url }}" alt="Facebook">
-                    </a>
-                {% endif %}
-                {% if section.settings.linkedin_link != blank %}
-                    <a href="{{ section.settings.linkedin_link }}" aria-label="LinkedIn" target="_blank">
-                        <img src="{{ 'linkedin.png' | asset_url }}" alt="LinkedIn">
-                    </a>
-                {% endif %}
-                {% if section.settings.instagram_link != blank %}
-                    <a href="{{ section.settings.instagram_link }}" aria-label="Instagram" target="_blank">
-                        <img src="{{ 'instagram.png' | asset_url }}" alt="Instagram">
-                    </a>
-                {% endif %}
-                {% if section.settings.twitter_link != blank %}
-                    <a href="{{ section.settings.twitter_link }}" aria-label="Twitter" target="_blank">
-                        <img src="{{ 'twitter.png' | asset_url }}" alt="Twitter">
-                    </a>
-                {% endif %}
+            <div class="footer-column">
+                <div class="footer-logo">
+                    {% if section.settings.footer_logo %}
+                        {{ section.settings.footer_logo | image_url: width: 150 | image_tag: alt: shop.name }}
+                    {% else %}
+                        <img src="https://placehold.co/150x50/navy/white?text=WHC+Lab" alt="{{ shop.name }}">
+                    {% endif %}
+                </div>
+                <p>{{ section.settings.company_description }}</p>
+                <div class="footer-social">
+                    {% if section.settings.facebook_link != blank %}
+                        <a href="{{ section.settings.facebook_link }}" target="_blank" aria-label="Facebook">
+                            <img src="{{ 'facebook.png' | asset_url }}" alt="Facebook">
+                        </a>
+                    {% endif %}
+                    {% if section.settings.linkedin_link != blank %}
+                        <a href="{{ section.settings.linkedin_link }}" target="_blank" aria-label="LinkedIn">
+                            <img src="{{ 'linkedin.png' | asset_url }}" alt="LinkedIn">
+                        </a>
+                    {% endif %}
+                    {% if section.settings.instagram_link != blank %}
+                        <a href="{{ section.settings.instagram_link }}" target="_blank" aria-label="Instagram">
+                            <img src="{{ 'instagram.png' | asset_url }}" alt="Instagram">
+                        </a>
+                    {% endif %}
+                    {% if section.settings.twitter_link != blank %}
+                        <a href="{{ section.settings.twitter_link }}" target="_blank" aria-label="Twitter">
+                            <img src="{{ 'twitter.png' | asset_url }}" alt="Twitter">
+                        </a>
+                    {% endif %}
+                </div>
+            </div>
+
+            <div class="footer-column">
+                <h3 class="footer-heading">Quick Links</h3>
+                <ul class="footer-links">
+                    {% for link in section.settings.footer_menu_1.links %}
+                        <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+                    {% endfor %}
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h3 class="footer-heading">Solutions</h3>
+                <ul class="footer-links">
+                    {% for link in section.settings.footer_menu_2.links %}
+                        <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+                    {% endfor %}
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h3 class="footer-heading">Contact Us</h3>
+                <ul class="footer-links">
+                    <li>{{ section.settings.address | newline_to_br }}</li>
+                    <li><a href="mailto:{{ section.settings.email }}">{{ section.settings.email }}</a></li>
+                    <li><a href="tel:{{ section.settings.phone }}">{{ section.settings.phone }}</a></li>
+                </ul>
             </div>
         </div>
-        <div class="footer-links">
-            {% if section.settings.privacy_policy_link != blank %}
-                <a href="{{ section.settings.privacy_policy_link }}">Privacy Policy</a>
-            {% endif %}
-            {% if section.settings.terms_link != blank %}
-                <a href="{{ section.settings.terms_link }}">Terms & Conditions</a>
-            {% endif %}
-            {% if section.settings.location != blank %}
-                <a href="#">{{ section.settings.location }}</a>
-            {% endif %}
+
+        <div class="footer-bottom">
+            <div class="footer-copyright">
+                <p>Copyright © {{ 'now' | date: "%Y" }} {{ shop.name }} | {{ section.settings.footer_credit }}</p>
+            </div>
+            <div class="footer-legal">
+                {% if section.settings.privacy_policy_link != blank %}
+                    <a href="{{ section.settings.privacy_policy_link }}">Privacy Policy</a>
+                {% endif %}
+                {% if section.settings.terms_link != blank %}
+                    <a href="{{ section.settings.terms_link }}">Terms & Conditions</a>
+                {% endif %}
+                {% if section.settings.location != blank %}
+                    <a href="#">{{ section.settings.location }}</a>
+                {% endif %}
+            </div>
         </div>
     </div>
 </footer>
 
 {% schema %}
 {
-    "name": "WHC Lab Home",
+    "name": "Footer",
     "settings": [
         {
             "type": "image_picker",
-            "id": "logo",
-            "label": "Logo"
+            "id": "footer_logo",
+            "label": "Footer Logo"
+        },
+        {
+            "type": "textarea",
+            "id": "company_description",
+            "label": "Company Description",
+            "default": "WHC Lab is a leading provider of innovative solutions for sustainable development and technological advancement."
         },
         {
             "type": "link_list",
-            "id": "menu",
-            "label": "Menu",
-            "default": "main-menu"
+            "id": "footer_menu_1",
+            "label": "Quick Links Menu",
+            "default": "footer"
+        },
+        {
+            "type": "link_list",
+            "id": "footer_menu_2",
+            "label": "Solutions Menu",
+            "default": "footer"
+        },
+        {
+            "type": "textarea",
+            "id": "address",
+            "label": "Address",
+            "default": "123 Business Street\nJakarta, Indonesia"
         },
         {
             "type": "text",
-            "id": "hero_heading",
-            "label": "Hero Heading",
-            "default": "Get started with a free consultation"
-        },
-        {
-            "type": "text",
-            "id": "cta_text",
-            "label": "CTA Button Text",
-            "default": "Get in Touch"
-        },
-        {
-            "type": "url",
-            "id": "cta_link",
-            "label": "CTA Button Link"
-        },
-        {
-            "type": "text",
-            "id": "contact_heading",
-            "label": "Contact Heading",
-            "default": "Let's talk"
-        },
-        {
-            "type": "text",
-            "id": "contact_email",
-            "label": "Contact Email",
+            "id": "email",
+            "label": "Email",
             "default": "sales@whclab.com"
+        },
+        {
+            "type": "text",
+            "id": "phone",
+            "label": "Phone",
+            "default": "+62 123 456 789"
         },
         {
             "type": "text",
@@ -348,8 +309,8 @@ footer {
     ],
     "presets": [
         {
-            "name": "WHC Lab Home",
-            "category": "Custom Sections"
+            "name": "Footer",
+            "category": "Footer"
         }
     ]
 }
