@@ -156,7 +156,7 @@
           "settings": {
             "image": "shopify://shop_images/image_8.png",
             "title": "Contract Manufacturing",
-            "text": "<p>End-to-end biotech manufacturing with high standards.<br/><br/></p>",
+            "text": "<p>End-to-end biotech manufacturing with high standards.</p>",
             "link_label": "Learn More",
             "link": ""
           }
