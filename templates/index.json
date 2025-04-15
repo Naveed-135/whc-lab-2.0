@@ -181,14 +181,14 @@
         "column_dz8TNf"
       ],
       "custom_css": [
-        "h3 {font-size: 20px; line-height: 26px; color: #0b2848; font-weight:700;}"
+        "h3 {font-size: 20px; line-height: 26px; color: #0b2848; font-weight: 700;}"
       ],
       "settings": {
         "title": "",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
-        "button_label": "Button label",
+        "button_label": "",
         "button_link": "",
         "columns_desktop": 3,
         "column_alignment": "left",
