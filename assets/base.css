@@ -3641,16 +3641,12 @@ details-disclosure > details {
 .flex-col{
   flex-direction: column;
 }
-.link {
+.animate-arrow{
   position: relative;
-  display: inline-block;
-  color: #0a2e4e;
-  text-decoration: none;
-  font-size: 18px;
-  font-weight: 500;
+ 
 }
 
-.link::after {
+.animate-arrow::after {
   content: "";
   position: absolute;
   bottom: -6px;
@@ -3661,7 +3657,7 @@ details-disclosure > details {
   transition: all 0.3s ease;
 }
 
-.link[aria-disabled="true"] {
+.animate-arrow[aria-disabled="true"] {
   pointer-events: none;
   opacity: 0.6;
 }
