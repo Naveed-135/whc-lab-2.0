@@ -236,7 +236,7 @@
           "settings": {
             "button_label": "Get Started",
             "button_link": "shopify://collections/frontpage",
-            "button_style_secondary": false
+            "button_style_secondary": true
           }
         }
       },
