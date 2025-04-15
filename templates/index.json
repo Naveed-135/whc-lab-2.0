@@ -95,6 +95,10 @@
         "text_gUVRAr",
         "heading_TX6FiH"
       ],
+      "custom_css": [
+        "p {color: #0b2848; padding: 6px 12px; background: #e0f8ac; font-size: 14px; line-height: 20px; border-radius: 50px; width: fit-content; margin: auto;}",
+        "h2 {font-size: 48px; color:#0B2848; font-weight:700; line-height:60px;}"
+      ],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
