@@ -3641,16 +3641,27 @@ details-disclosure > details {
 .flex-col{
   flex-direction: column;
 }
+.link {
+  position: relative;
+  display: inline-block;
+  color: #0a2e4e;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+}
+
 .link::after {
   content: "";
-  display: block;
-  width: 100%;
-  height: 3px;
-  background-color: #c3e47d;
   position: absolute;
   bottom: -6px;
   left: 0;
+  width: 100%;
+  height: 3px;
+  background-color: #c3e47d; /* green underline */
+  transition: all 0.3s ease;
 }
-.link{
-  position: relative;
+
+.link[aria-disabled="true"] {
+  pointer-events: none;
+  opacity: 0.6;
 }
