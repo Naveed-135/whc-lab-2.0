@@ -298,8 +298,8 @@
           "type": "button",
           "settings": {
             "button_label": "Get Started",
-            "button_link": "",
-            "button_style_secondary": false
+            "button_link": "shopify://blogs/news",
+            "button_style_secondary": true
           }
         }
       },
@@ -312,8 +312,7 @@
       "custom_css": [
         ".image-with-text__media {border-radius: 24px;}",
         ".image-with-text__text--caption {color: #0b2848; padding: 6px 12px; background: #e0f8ac; font-size: 14px; line-height: 20px; border-radius: 50px; width: fit-content;}",
-        "h2 {color: #0b2848; font-size: 36px; font-weight: 700; line-height: 48px;}",
-        ".dic-li {gap: 4px;}"
+        "h2 {color: #0b2848; font-size: 36px; font-weight: 700; line-height: 48px;}"
       ],
       "settings": {
         "image": "shopify://shop_images/Frame_481612_1.png",
@@ -334,6 +333,14 @@
     "rich_text_Btp4RR": {
       "type": "rich-text",
       "blocks": {
+        "caption_6z4wFb": {
+          "type": "caption",
+          "settings": {
+            "caption": "Our Solution",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
         "heading_brW9tY": {
           "type": "heading",
           "settings": {
@@ -349,10 +356,10 @@
         }
       },
       "block_order": [
+        "caption_6z4wFb",
         "heading_brW9tY",
         "text_hDnB6d"
       ],
-      "disabled": true,
       "settings": {
         "desktop_content_position": "left",
         "content_alignment": "left",
