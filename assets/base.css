@@ -3637,3 +3637,6 @@ details-disclosure > details {
 .fit-width{
   width: fit-content;
 }
+.flex-col{
+  flex-direction: column;
+}
