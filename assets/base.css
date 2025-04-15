@@ -3653,7 +3653,7 @@ details-disclosure > details {
   left: 0;
   width: 100%;
   height: 3px;
-  background-color: #c3e47d; /* green underline */
+  background-color: #B4D36E; /* green underline */
   transition: all 0.3s ease;
 }
 
