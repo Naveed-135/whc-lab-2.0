@@ -360,6 +360,9 @@
         "heading_brW9tY",
         "text_hDnB6d"
       ],
+      "custom_css": [
+        ".rich-text__caption {color: #0b2848; padding: 6px 12px; background: #e0f8ac; font-size: 14px; line-height: 20px; border-radius: 50px; width: fit-content;}"
+      ],
       "settings": {
         "desktop_content_position": "left",
         "content_alignment": "left",
