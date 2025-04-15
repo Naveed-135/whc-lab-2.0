@@ -3615,3 +3615,11 @@ details-disclosure > details {
     border-radius: 50px;
     font-size: 14px;
 }
+.custom-lable {
+  color: #0b2848;
+  padding: 6px 12px;
+  background: #e0f8ac;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 50px;
+}
