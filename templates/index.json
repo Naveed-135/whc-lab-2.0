@@ -181,7 +181,7 @@
         "column_dz8TNf"
       ],
       "custom_css": [
-        "h3{font-size:20px; line-height:26px; color:#0B2848;}"
+        "h3 {font-size: 20px; line-height: 26px; color: #0b2848; font-weight:700;}"
       ],
       "settings": {
         "title": "",
