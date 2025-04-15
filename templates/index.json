@@ -97,7 +97,7 @@
       ],
       "custom_css": [
         "p {color: #0b2848; padding: 6px 12px; background: #e0f8ac; font-size: 14px; line-height: 20px; border-radius: 50px; width: fit-content; margin: auto;}",
-        "h2 {font-size: 48px; color:#0B2848; font-weight:700; line-height:60px;}"
+        "h2 {font-size: 48px; color: #0b2848; font-weight: 700; line-height: 60px;}"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -180,7 +180,6 @@
         "column_DQhmMi",
         "column_dz8TNf"
       ],
-      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h1",
@@ -190,7 +189,7 @@
         "button_link": "",
         "columns_desktop": 3,
         "column_alignment": "left",
-        "background_style": "primary",
+        "background_style": "none",
         "color_scheme": "",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
