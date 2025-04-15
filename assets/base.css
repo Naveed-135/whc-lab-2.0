@@ -3597,11 +3597,6 @@ details-disclosure > details {
     transform: translateX(100%) scaleX(0);
   }
 }
-
-
-
-
-
 .button:not([disabled]):hover:after, .shopify-challenge__button:hover:after, .customer button:hover:after, .shopify-payment-button__button--unbranded:hover:after {
     --border-offset: none;
 }
@@ -3643,9 +3638,7 @@ details-disclosure > details {
 }
 .animate-arrow{
   position: relative;
- 
 }
-
 .animate-arrow::after {
   content: "";
   position: absolute;
@@ -3656,12 +3649,12 @@ details-disclosure > details {
   background-color: #B4D36E; /* green underline */
   transition: all 0.3s ease;
 }
-
 .animate-arrow[aria-disabled="true"] {
   pointer-events: none;
   opacity: 0.6;
 }
 p{
   color: #53627A;
-  
+  font-size: 18px;
+  line-height: 30px;
 }
