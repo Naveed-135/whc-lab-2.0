@@ -3624,6 +3624,7 @@ details-disclosure > details {
   font-size: 14px;
   line-height: 20px;
   border-radius: 50px;
+  width: fit-content;
 }
 .flex{
   display: flex;
@@ -3639,4 +3640,17 @@ details-disclosure > details {
 }
 .flex-col{
   flex-direction: column;
+}
+.link::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 3px;
+  background-color: #c3e47d;
+  position: absolute;
+  bottom: -6px;
+  left: 0;
+}
+.link{
+  position: relative;
 }
