@@ -249,7 +249,8 @@
       ],
       "custom_css": [
         ".image-with-text__media {border-radius: 24px;}",
-        ".image-with-text__text--caption {color: #0b2848; padding: 6px 12px; background: #e0f8ac; font-size: 14px; line-height: 20px; border-radius: 50px; width: fit-content;}"
+        ".image-with-text__text--caption {color: #0b2848; padding: 6px 12px; background: #e0f8ac; font-size: 14px; line-height: 20px; border-radius: 50px; width: fit-content;}",
+        "h2 {color:#0B2848; font-size:36px; font-weight:700; line-height:48px;}"
       ],
       "settings": {
         "image": "shopify://shop_images/Frame_481612.png",
