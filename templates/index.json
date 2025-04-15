@@ -361,7 +361,8 @@
         "text_hDnB6d"
       ],
       "custom_css": [
-        ".rich-text__caption {color: #0b2848; padding: 6px 12px; background: #e0f8ac; font-size: 14px; line-height: 20px; border-radius: 50px; width: fit-content;}"
+        ".rich-text__caption {color: #0b2848; padding: 6px 12px; background: #e0f8ac; font-size: 14px; line-height: 20px; border-radius: 50px; width: fit-content;}",
+        "h2 {color: #0b2848; font-size: 36px; font-weight: 700; line-height: 48px;}"
       ],
       "settings": {
         "desktop_content_position": "left",
