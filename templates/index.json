@@ -275,7 +275,7 @@
       "settings": {
         "image": "shopify://shop_images/Frame_481612.png",
         "height": "small",
-        "desktop_image_width": "small",
+        "desktop_image_width": "medium",
         "layout": "image_first",
         "image_behavior": "none",
         "content_layout": "no-overlap",
