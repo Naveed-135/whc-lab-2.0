@@ -78,6 +78,21 @@
         "padding_bottom": 48
       }
     },
+    "three_image_grid_WRFYCR": {
+      "type": "three-image-grid",
+      "name": "Research Image Grid",
+      "settings": {
+        "main_image": "shopify://shop_images/Frame_481613.png",
+        "main_heading": "",
+        "main_link": "",
+        "top_right_image": "shopify://shop_images/Frame_481609.png",
+        "top_right_heading": "",
+        "top_right_link": "",
+        "bottom_right_image": "shopify://shop_images/Frame_2121450131.png",
+        "bottom_right_heading": "",
+        "bottom_right_link": ""
+      }
+    },
     "rich_text_FTgYBT": {
       "type": "rich-text",
       "blocks": {
@@ -513,6 +528,7 @@
   "order": [
     "image_banner",
     "custom_liquid_GfAhbE",
+    "three_image_grid_WRFYCR",
     "rich_text_FTgYBT",
     "multicolumn_DXzNBC",
     "image_with_text_nmWfEV",
