@@ -3653,7 +3653,7 @@ details-disclosure > details {
   pointer-events: none;
   opacity: 0.6;
 }
-p{
+p,span{
   color: #53627A;
   font-size: 16px;
   line-height: 30px;
