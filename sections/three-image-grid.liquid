@@ -1,6 +1,182 @@
-{% schema %}
-  {
-    "name": "Section name",
-    "settings": []
+<style>
+  .research-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
   }
+
+  .left-image,
+  .right-column {
+    border-radius: 16px;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .left-image {
+    width: 100%;
+  }
+
+  @media(min-width: 768px) {
+    .left-image {
+      width: 70%;
+    }
+
+    .right-column {
+      width: 28%;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+  }
+
+  .image-block {
+    position: relative;
+    border-radius: 16px;
+    overflow: hidden;
+  }
+
+  .image-block img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  .overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 16px;
+  }
+
+  .overlay-text {
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .arrow {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    background: white;
+    border-radius: 50%;
+    padding: 8px;
+  }
+
+  .arrow svg {
+    width: 14px;
+    height: 14px;
+    color: black;
+  }
+</style>
+
+<div class="research-section">
+  <!-- Left Big Image -->
+  <div class="left-image image-block">
+    <a href="{{ section.settings.main_link }}">
+      <img src="{{ section.settings.main_image | image_url: width: 900 }}" alt="Main Image">
+      <div class="overlay">
+        <div class="overlay-text">{{ section.settings.main_heading }}</div>
+      </div>
+      <div class="arrow">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path d="M9 5l7 7-7 7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </div>
+    </a>
+  </div>
+
+  <!-- Right Column -->
+  <div class="right-column">
+    <!-- Top Right Image -->
+    <div class="image-block">
+      <a href="{{ section.settings.top_right_link }}">
+        <img src="{{ section.settings.top_right_image | image_url: width: 400 }}" alt="Top Right">
+        <div class="overlay">
+          <div class="overlay-text">{{ section.settings.top_right_heading }}</div>
+        </div>
+        <div class="arrow">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path d="M9 5l7 7-7 7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+      </a>
+    </div>
+
+    <!-- Bottom Right Image -->
+    <div class="image-block">
+      <a href="{{ section.settings.bottom_right_link }}">
+        <img src="{{ section.settings.bottom_right_image | image_url: width: 400 }}" alt="Bottom Right">
+        <div class="overlay">
+          <div class="overlay-text">{{ section.settings.bottom_right_heading }}</div>
+        </div>
+        <div class="arrow">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path d="M9 5l7 7-7 7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+{% schema %}
+{
+  "name": "Research Highlights",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "main_image",
+      "label": "Main Image"
+    },
+    {
+      "type": "text",
+      "id": "main_heading",
+      "label": "Main Text"
+    },
+    {
+      "type": "url",
+      "id": "main_link",
+      "label": "Main Link"
+    },
+    {
+      "type": "image_picker",
+      "id": "top_right_image",
+      "label": "Top Right Image"
+    },
+    {
+      "type": "text",
+      "id": "top_right_heading",
+      "label": "Top Right Text"
+    },
+    {
+      "type": "url",
+      "id": "top_right_link",
+      "label": "Top Right Link"
+    },
+    {
+      "type": "image_picker",
+      "id": "bottom_right_image",
+      "label": "Bottom Right Image"
+    },
+    {
+      "type": "text",
+      "id": "bottom_right_heading",
+      "label": "Bottom Right Text"
+    },
+    {
+      "type": "url",
+      "id": "bottom_right_link",
+      "label": "Bottom Right Link"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Research Image Grid"
+    }
+  ]
+}
 {% endschema %}
