@@ -43,15 +43,13 @@
         "heading",
         "button"
       ],
-      "custom_css": [
-        "p {color: white;}"
-      ],
+      "custom_css": [],
       "settings": {
         "image": "shopify://shop_images/Hero_4.png",
         "image_overlay_opacity": 0,
-        "image_height": "medium",
+        "image_height": "adapt",
         "image_behavior": "none",
-        "desktop_content_position": "bottom-center",
+        "desktop_content_position": "middle-center",
         "desktop_content_alignment": "center",
         "show_text_box": false,
         "color_scheme": "scheme-3",
