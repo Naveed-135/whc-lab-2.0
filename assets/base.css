@@ -3657,8 +3657,8 @@ p{
   color: #53627A;
   font-size: 16px;
   line-height: 30px;
-  font-weight: 400;
+  font-weight: 400 !important;
 }
 h2{
-  font-weight: 700;
+  font-weight: 700 !important;
 }
