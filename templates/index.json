@@ -43,7 +43,9 @@
         "heading",
         "button"
       ],
-      "custom_css": [],
+      "custom_css": [
+        "p {color: white;}"
+      ],
       "settings": {
         "image": "shopify://shop_images/Hero_4.png",
         "image_overlay_opacity": 0,
