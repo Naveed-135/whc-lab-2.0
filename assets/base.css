@@ -3676,4 +3676,10 @@ h2{
   .banner__heading, .rich-text__heading{
     font-size: 56px;
   }
+  .image-with-text__media-item{
+    width: 40%;
+  }
+  .image-with-text__text-item{
+    width: 60%;
+  }
 }
