@@ -3673,7 +3673,7 @@ h2{
 
 
 @media (min-width:1280px){
-  .banner__heading{
+  .banner__heading, .rich-text__heading{
     font-size: 56px;
   }
 }
