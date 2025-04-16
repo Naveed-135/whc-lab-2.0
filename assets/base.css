@@ -3662,3 +3662,18 @@ p{
 h2{
   font-weight: 700 !important;
 }
+
+
+
+
+
+
+
+
+
+
+@media (min-width:1280px){
+  .banner__heading{
+    font-size: 56px;
+  }
+}
