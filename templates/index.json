@@ -80,7 +80,6 @@
     },
     "three_image_grid_WRFYCR": {
       "type": "three-image-grid",
-      "name": "Research Image Grid",
       "settings": {
         "main_image": "shopify://shop_images/Frame_481613.png",
         "main_heading": "Innovative Research & Development",
@@ -452,6 +451,16 @@
         "padding_bottom": 36
       }
     },
+    "custom_liquid_3Crw6H": {
+      "type": "custom-liquid",
+      "custom_css": [],
+      "settings": {
+        "custom_liquid": "<div class=\"accordion\">\n    <div class=\"accordion-item\">\n      <div class=\"accordion-header\">\n        What industries does WHC Lab Group specialize in?\n        <span class=\"icon\">+</span>\n      </div>\n      <div class=\"accordion-body\">\n        <!-- You can add content here later -->\n      </div>\n    </div>\n\n    <div class=\"accordion-item active\">\n      <div class=\"accordion-header\">\n        Do you offer custom contract manufacturing services?\n        <span class=\"icon\">−</span>\n      </div>\n      <div class=\"accordion-body\">\n        Yes, we specialize in contract manufacturing, providing tailored solutions to meet the unique needs of our partners.\n      </div>\n    </div>\n\n    <div class=\"accordion-item\">\n      <div class=\"accordion-header\">\n        How does WHC Lab Group contribute to sustainability?\n        <span class=\"icon\">+</span>\n      </div>\n      <div class=\"accordion-body\"></div>\n    </div>\n\n    <div class=\"accordion-item\">\n      <div class=\"accordion-header\">\n        Can I collaborate with WHC Lab Group for research & development?\n        <span class=\"icon\">+</span>\n      </div>\n      <div class=\"accordion-body\"></div>\n    </div>\n\n    <div class=\"accordion-item\">\n      <div class=\"accordion-header\">\n        How can I get in touch for business inquiries?\n        <span class=\"icon\">+</span>\n      </div>\n      <div class=\"accordion-body\"></div>\n    </div>\n  </div>\n<style>\n .accordion {\n      max-width: 600px;\n      margin: auto;\n    }\n\n    .accordion-item {\n      background: #fff;\n      border-radius: 8px;\n      margin-bottom: 10px;\n      box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);\n      overflow: hidden;\n      border: 1px solid #e2e8f0;\n    }\n\n    .accordion-header {\n      cursor: pointer;\n      padding: 1rem;\n      display: flex;\n      justify-content: space-between;\n      align-items: center;\n      font-weight: 500;\n      color: #1e293b;\n    }\n\n    .accordion-header.active {\n      font-weight: 600;\n    }\n\n    .accordion-body {\n      padding: 1rem;\n      border-top: 1px solid #e2e8f0;\n      display: none;\n      color: #475569;\n      font-size: 0.95rem;\n    }\n\n    .accordion-item.active .accordion-body {\n      display: block;\n    }\n\n    .icon {\n      font-size: 20px;\n      transition: transform 0.3s;\n    }\n\n    .accordion-item.active .icon {\n      transform: rotate(45deg);\n    }\n</style>\n  <script>\n    const headers = document.querySelectorAll(\".accordion-header\");\n\n    headers.forEach(header => {\n      header.addEventListener(\"click\", () => {\n        const item = header.parentElement;\n        const isActive = item.classList.contains(\"active\");\n\n        // Close all items\n        document.querySelectorAll(\".accordion-item\").forEach(i => i.classList.remove(\"active\"));\n        document.querySelectorAll(\".accordion-header .icon\").forEach(i => i.textContent = \"+\");\n\n        // Open clicked item if it wasn't already active\n        if (!isActive) {\n          item.classList.add(\"active\");\n          header.querySelector(\".icon\").textContent = \"−\";\n        }\n      });\n    });\n  </script>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "collapsible_content_c4hDTj": {
       "type": "collapsible-content",
       "blocks": {
@@ -536,6 +545,7 @@
     "image_with_text_CnRNcg",
     "rich_text_Btp4RR",
     "multicolumn_zGV3CW",
+    "custom_liquid_3Crw6H",
     "collapsible_content_c4hDTj"
   ]
 }
