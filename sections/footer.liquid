@@ -1,7 +1,7 @@
 <footer class="footer">
   <div class="footer-top">
     {% if section.settings.footer_image %}
-      <img src="{{ section.settings.footer_image | image_url: width: 400 }}" alt="Footer Image" class="w-auto h-auto">
+      <img src="{{ section.settings.footer_image | image_url: width: 400 }}" alt="Footer Image" class="footer-logo">
     {% endif %}
     <div class="contact">
       <a href="{{ section.settings.contact_link }}" class="contact-link">
@@ -67,7 +67,10 @@
     padding: 40px 20px;
     color: #333;
   }
-
+  .footer-logo {
+    width: 269px;
+    height: 84px;
+  }
   .footer-top {
     max-width: 1200px;
     margin: 0 auto;
@@ -99,7 +102,7 @@
     font-size: 42px;
     line-height: 48px;
     font-weight: 700 !important;
-    color:#53627A;
+    color: #53627a;
   }
   .contact-email-subtext {
     font-size: 18px;
