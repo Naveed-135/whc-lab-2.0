@@ -22,7 +22,7 @@
     <div class="footer-columns-div-2">
       <div class="column">
         <h4>{{ section.settings.column1_title }}</h4>
-        <ul>
+        <ul class="footer-ul">
           {% for link in linklists[section.settings.column1_menu].links %}
             <li>
               <a href="{{ link.url }}" class="footer-link">{{ link.title }}</a>
@@ -33,7 +33,7 @@
 
       <div class="column">
         <h4>{{ section.settings.column2_title }}</h4>
-        <ul>
+        <ul class="footer-ul">
           {% for link in linklists[section.settings.column2_menu].links %}
             <li>
               <a href="{{ link.url }}" class="footer-link">{{ link.title }}</a>
@@ -44,7 +44,7 @@
 
       <div class="column">
         <h4>{{ section.settings.column3_title }}</h4>
-        <ul>
+        <ul class="footer-ul">
           {% for link in linklists[section.settings.column3_menu].links %}
             <li>
               <a href="{{ link.url }}" class="footer-link">{{ link.title }}</a>
@@ -62,6 +62,11 @@
 </footer>
 
 <style>
+  .footer-ul{
+  display:flex;
+  flex-direction:column;
+  gap:24px;
+  }
   .footer-link{
   color:#53627A !important;
   font-size:16px;
