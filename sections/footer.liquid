@@ -25,7 +25,7 @@
         <ul>
           {% for link in linklists[section.settings.column1_menu].links %}
             <li>
-              <a href="{{ link.url }}">{{ link.title }}</a>
+              <a href="{{ link.url }}" class="footer-link">{{ link.title }}</a>
             </li>
           {% endfor %}
         </ul>
@@ -36,7 +36,7 @@
         <ul>
           {% for link in linklists[section.settings.column2_menu].links %}
             <li>
-              <a href="{{ link.url }}">{{ link.title }}</a>
+              <a href="{{ link.url }}" class="footer-link">{{ link.title }}</a>
             </li>
           {% endfor %}
         </ul>
@@ -47,7 +47,7 @@
         <ul>
           {% for link in linklists[section.settings.column3_menu].links %}
             <li>
-              <a href="{{ link.url }}">{{ link.title }}</a>
+              <a href="{{ link.url }}" class="footer-link">{{ link.title }}</a>
             </li>
           {% endfor %}
           <li>{{ section.settings.location }}</li>
@@ -62,6 +62,12 @@
 </footer>
 
 <style>
+  .footer-link{
+  color:#53627A;
+  font-size:16px;
+  font-weight:400;
+  line-height:24px;
+  }
   .button--primary{
   width:fit-content;
   }
