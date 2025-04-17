@@ -47,7 +47,7 @@
 
       <div class="column">
         <h4>{{ section.settings.column3_title }}</h4>
-        <ul class="footer-ul">
+        <ul class="footer-ul last-child">
           {% for link in linklists[section.settings.column3_menu].links %}
             <li>
               <a href="{{ link.url }}" class="footer-link">{{ link.title }}</a>
@@ -87,6 +87,9 @@
 </footer>
 
 <style>
+  .last-child:last-child {
+    display: none;
+  }
   .copyright-text{
   color:#53627A;
   font-size:16px;
