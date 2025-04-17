@@ -3662,8 +3662,14 @@ p,span{
 h2{
   font-weight: 700 !important;
 }
-
-
+.overlay-text-main{
+  font-size: 36px;
+  line-height: 48px;
+}
+.overlay-text-sub{
+font-size: 24px;
+line-height: 32px;
+}
 
 
 
