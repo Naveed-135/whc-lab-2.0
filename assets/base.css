@@ -3666,11 +3666,13 @@ h2{
   font-size: 36px;
   line-height: 48px;
   font-weight: 700 !important;
+  color: white;
 }
 .overlay-text-sub{
 font-size: 24px;
 line-height: 32px;
 font-weight: 600 !important;
+color: white;
 }
 
 
