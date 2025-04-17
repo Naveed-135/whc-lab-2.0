@@ -47,10 +47,10 @@
 
       <div class="column">
         <h4>{{ section.settings.column3_title }}</h4>
-        <ul class="footer-ul ">
+        <ul class="footer-ul last-child-disable">
           {% for link in linklists[section.settings.column3_menu].links %}
             <li>
-              <a href="{{ link.url }}" class="footer-link last-child-disable">{{ link.title }}</a>
+              <a href="{{ link.url }}" class="footer-link ">{{ link.title }}</a>
             </li>
           {% endfor %}
           <li>{{ section.settings.location }}</li>
@@ -87,7 +87,7 @@
 </footer>
 
 <style>
-  .last-child-disable:last-child {
+  .last-child-disable > :last-child {
     display: none;
   }
   .copyright-text{
