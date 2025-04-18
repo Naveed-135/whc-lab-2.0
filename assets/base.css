@@ -3692,12 +3692,12 @@ color: white;
   .image-with-text__text-item{
     width: 60% !important;
   }
-  .button .button--secondary{
-    font-size: 18px;
-    line-height: 24px;
-    color: #0B2848;
-    width: 188px;
-    height: 64px;
-    border: 1px solid #0B2848;
+  .button--secondary{
+    font-size: 18px !important;
+    line-height: 24px !important; 
+    color: #0B2848 !important;
+    width: 188px !important;
+    height: 64px !important;
+    border: 1px solid #0B2848 !important;
   }
 }
