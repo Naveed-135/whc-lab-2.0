@@ -3951,3 +3951,15 @@ p{
 .section-template--24889399574852__image_with_text_nmWfEV-padding{
   background-color: #FAFBFB !important;
 }
+
+
+
+
+
+@media (min-width:768px) and (max-width:1024px){
+  #shopify-section-template--24889399574852__custom_liquid_GfAhbE .parent {
+ 
+    grid-template-columns: repeat(2, 1fr);
+    
+  }
+}
