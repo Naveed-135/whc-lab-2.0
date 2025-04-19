@@ -468,77 +468,37 @@
         "padding_bottom": 60
       }
     },
-    "collapsible_content_c4hDTj": {
-      "type": "collapsible-content",
+    "newsletter_XJJjGp": {
+      "type": "newsletter",
       "blocks": {
-        "collapsible_row_9DUETr": {
-          "type": "collapsible_row",
+        "heading_rnUWeb": {
+          "type": "heading",
           "settings": {
-            "heading": "What industries does WHC Lab Group specialize in?",
-            "icon": "none",
-            "row_content": "",
-            "page": ""
+            "heading": "Stay Ahead with Biotech Innovations",
+            "heading_size": "hxxl"
           }
         },
-        "collapsible_row_iCDNEJ": {
-          "type": "collapsible_row",
+        "paragraph_DBVD9e": {
+          "type": "paragraph",
           "settings": {
-            "heading": "Do you offer custom contract manufacturing services?",
-            "icon": "none",
-            "row_content": "",
-            "page": ""
+            "text": "<p>Join our community and get the latest updates on biotechnology advancements, sustainability initiatives, and industry insights—delivered straight to your inbox.<br/><br/></p>"
           }
         },
-        "collapsible_row_nw3C8V": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "How does WHC Lab Group contribute to sustainability?",
-            "icon": "none",
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "collapsible_row_46HcnQ": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Can I collaborate with WHC Lab Group for research & development?",
-            "icon": "none",
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "collapsible_row_N6qW3m": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "How can I get in touch for business inquiries?",
-            "icon": "none",
-            "row_content": "",
-            "page": ""
-          }
+        "email_form_JUa3rK": {
+          "type": "email_form",
+          "settings": {}
         }
       },
       "block_order": [
-        "collapsible_row_9DUETr",
-        "collapsible_row_iCDNEJ",
-        "collapsible_row_nw3C8V",
-        "collapsible_row_46HcnQ",
-        "collapsible_row_N6qW3m"
+        "heading_rnUWeb",
+        "paragraph_DBVD9e",
+        "email_form_JUa3rK"
       ],
-      "disabled": true,
       "settings": {
-        "caption": "",
-        "heading": "",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "layout": "none",
-        "container_color_scheme": "",
         "color_scheme": "",
-        "open_first_collapsible_row": true,
-        "image": "shopify://shop_images/Content.png",
-        "image_ratio": "adapt",
-        "desktop_layout": "image_first",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     }
   },
@@ -553,6 +513,6 @@
     "rich_text_Btp4RR",
     "multicolumn_zGV3CW",
     "custom_liquid_3Crw6H",
-    "collapsible_content_c4hDTj"
+    "newsletter_XJJjGp"
   ]
 }
