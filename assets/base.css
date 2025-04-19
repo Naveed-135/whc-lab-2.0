@@ -3880,3 +3880,7 @@ h2 {
   display: flex;
   justify-content: space-between;
 }
+.test{
+  display: flex;
+  gap: 32px;
+}
