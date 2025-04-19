@@ -3901,3 +3901,7 @@ h2 {
 .button--primary:hover{
  background-color: white !important;
 }
+.button--secondary:hover{
+  color: white;
+  background-color: #0B2848 !important;
+}
