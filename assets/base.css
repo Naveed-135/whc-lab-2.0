@@ -3714,10 +3714,12 @@ color: white;
   line-height: 60px;
   font-weight: 700 !important;
   color: white;
+  margin-bottom: 12px;
 }
 .newsletter__subheading p{
   font-size: 18px;
   line-height: 30px;
   font-weight: 500;
   color: white;
+  margin-bottom: 32px;
 }
