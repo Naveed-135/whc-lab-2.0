@@ -3927,4 +3927,7 @@ h2 {
     font-weight: 600;
 
   }
+  .right-column{
+    gap: 20px;
+  }
 }
