@@ -3929,5 +3929,7 @@ h2 {
   }
   .right-column{
     gap: 20px;
+    display: flex;
+    flex-direction: column;
   }
 }
