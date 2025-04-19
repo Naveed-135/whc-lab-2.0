@@ -3876,3 +3876,7 @@ h2 {
   background: transparent !important;
   border-radius: 50px !important;
 }
+.custom-header{
+  display: flex;
+  justify-content: space-between;
+}
