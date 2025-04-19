@@ -3865,3 +3865,12 @@ h2 {
   font-weight: 500;
   line-height: 24px;
 }
+
+.header-button{
+  font-size: 18px !important;
+  line-height: 24px !important;
+  color: #0b2848 !important;
+  width: 138px !important;
+  height: 48px !important;
+  border: 1px solid #0b2848 !important;
+}
