@@ -3935,4 +3935,7 @@ h2 {
   .image-with-text__grid{
     gap:32px !important;
   }
+  .newsletter-form__field-wrapper{
+    flex-direction: column;
+  }
 }
