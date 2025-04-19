@@ -391,7 +391,7 @@
         "color_scheme": "",
         "full_width": true,
         "padding_top": 40,
-        "padding_bottom": 52
+        "padding_bottom": 24
       }
     },
     "multicolumn_zGV3CW": {
@@ -451,7 +451,7 @@
         "color_scheme": "",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 36,
+        "padding_top": 24,
         "padding_bottom": 36
       }
     },
