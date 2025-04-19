@@ -3173,7 +3173,7 @@ details-disclosure > details {
   .customer .field input:focus,
   .customer select:focus,
   .localization-form__select:focus.localization-form__select:after {
-    outline: transparent solid 1px;
+    /* outline: transparent solid 1px; */
   }
 
   .localization-form__select:focus {
@@ -3827,7 +3827,7 @@ h2 {
   gap: 16px;
   align-items: center;
 }
-.custom-field__input{
+.field__input{
   border-radius: 50px;
   border: 1px solid var(--Gray, #E7EAED);
   background: rgba(255, 255, 255, 0.10);
