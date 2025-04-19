@@ -3849,7 +3849,12 @@ h2 {
   gap: 14px;
   flex-shrink: 0;
   border-radius: 8px;
-  background: var(--Secondary, #b4d36e);
+  background: #FAFBFB;
+  cursor: pointer;
+}
+.mega-menu__list li:hover {
+
+  background: #B4D36E;
 }
 .mega-menu__link--level-2 {
   text-decoration: none !important;
