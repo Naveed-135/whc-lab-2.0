@@ -1817,7 +1817,6 @@ details[open] > .share-button__fallback {
   /* height: 4.4rem; */
   justify-content: center;
   white-space: nowrap;
-  
 
   /* overflow: hidden; */
   padding: 0;
@@ -3701,14 +3700,14 @@ details-disclosure > details {
   background-color: #b4d36e !important;
   color: #0b2848;
   display: inline-flex;
-padding: 20px 42px;
-justify-content: center;
-align-items: center;
-gap: 16px;
-border-radius: 50px;
-font-size: 18px;
-line-height: 24px;
-font-weight: 500;
+  padding: 20px 42px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  border-radius: 50px;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 500;
 }
 .banner__text p {
   border: 1px solid;
@@ -3830,11 +3829,15 @@ h2 {
   gap: 16px;
   align-items: center;
 }
-.field__input{
+.field__input {
   border-radius: 50px;
-  border: 1px solid var(--Gray, #E7EAED);
-  background: rgba(255, 255, 255, 0.10);
+  border: 1px solid var(--Gray, #e7eaed);
+  background: rgba(255, 255, 255, 0.1);
 }
-.field__label{
+.field__label {
   color: white;
+}
+.mega-menu__list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
