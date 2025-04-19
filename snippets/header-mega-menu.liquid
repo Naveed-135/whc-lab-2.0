@@ -94,13 +94,28 @@
 </nav>
 
 <script>
-  document.querySelectorAll('.header__menu-item').forEach(item => {
-    item.addEventListener('mouseenter', () => {
-      item.setAttribute('aria-expanded', 'true');
+  document.querySelectorAll('.mega-menu').forEach(details => {
+    const summary = details.querySelector('summary');
+
+    summary.addEventListener('mouseenter', () => {
+      details.setAttribute('open', 'true');
+      summary.setAttribute('aria-expanded', 'true');
     });
 
-    item.addEventListener('mouseleave', () => {
-      item.setAttribute('aria-expanded', 'false');
+    summary.addEventListener('mouseleave', () => {
+      details.removeAttribute('open');
+      summary.setAttribute('aria-expanded', 'false');
+    });
+
+    // Optional: If you want the whole details area to stay open while hovering over the menu
+    details.addEventListener('mouseenter', () => {
+      details.setAttribute('open', 'true');
+      summary.setAttribute('aria-expanded', 'true');
+    });
+
+    details.addEventListener('mouseleave', () => {
+      details.removeAttribute('open');
+      summary.setAttribute('aria-expanded', 'false');
     });
   });
 </script>
