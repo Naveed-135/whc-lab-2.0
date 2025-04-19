@@ -116,7 +116,7 @@
       "custom_css": [
         "p {color: #0b2848; padding: 6px 12px; background: #e0f8ac; font-size: 14px; line-height: 20px; border-radius: 50px; width: fit-content; margin: auto;}",
         "h2 {font-size: 48px; color: #0b2848; font-weight: 700; line-height: 60px;}",
-        "@media (max-width: 600px) {h2 {font-size: 36px; line-height: 48px; } .rich-text__wrapper{width: 100%; }}"
+        "@media (max-width: 600px) {h2 {font-size: 36px; line-height: 48px; } .rich-text__wrapper {width: 100%; }}"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -384,7 +384,8 @@
       ],
       "custom_css": [
         ".rich-text__caption {color: #0b2848; padding: 6px 12px; background: #e0f8ac; font-size: 14px; line-height: 20px; border-radius: 50px; width: fit-content;}",
-        "h2 {color: #0b2848; font-size: 36px; font-weight: 700; line-height: 48px;}"
+        "h2 {color: #0b2848; font-size: 36px; font-weight: 700; line-height: 48px;}",
+        "@media (max-width: 600px) {.rich-text__wrapper {width: 100%; }}"
       ],
       "settings": {
         "desktop_content_position": "left",
