@@ -3942,4 +3942,7 @@ h2 {
     padding-left: 25px !important;
     padding-right: 25px !important;
   }
+  .image-with-text__media-item{
+    aspect-ratio: 1/1;
+  }
 }
