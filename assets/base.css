@@ -3909,3 +3909,12 @@ h2 {
   color: white !important;
   background-color: #0B2848 !important;
 }
+
+
+
+@media(max-width:600px){
+  .banner__box{
+    padding-top: 133px;
+    padding-bottom: 133px;
+  }
+}
