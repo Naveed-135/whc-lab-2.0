@@ -497,7 +497,7 @@
       "settings": {
         "background_image": "shopify://shop_images/CTA_Block.png",
         "color_scheme": "",
-        "full_width": true,
+        "full_width": false,
         "padding_top": 40,
         "padding_bottom": 52
       }
