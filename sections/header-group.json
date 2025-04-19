@@ -13,9 +13,7 @@
   "sections": {
     "header": {
       "type": "header",
-      "custom_css": [
-        ".buttonbutton--secondary {width: 138px !important ; height: 48px !important; white-space: nowrap;}"
-      ],
+      "custom_css": [],
       "settings": {
         "logo_position": "middle-left",
         "mobile_logo_position": "center",
