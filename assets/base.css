@@ -3841,3 +3841,14 @@ h2 {
   display: grid !important;
   grid-template-columns: repeat(3, 1fr) !important;
 }
+.mega-menu__link--level-2{
+  display: flex;
+      width: 331px;
+      padding: 20px 18px;
+      align-items: center;
+      gap: 14px;
+      flex-shrink: 0;
+      border-radius: 8px;
+      background: var(--Secondary, #B4D36E);
+      text-decoration: none;
+}
