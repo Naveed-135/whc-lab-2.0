@@ -3917,4 +3917,14 @@ h2 {
     padding-top: 133px !important;
     padding-bottom: 133px !important;
   }
+  .banner__heading{
+    font-size: 36px;
+
+  }
+  .overlay-text-main{
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 600;
+    
+  }
 }
