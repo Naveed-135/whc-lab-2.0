@@ -3898,3 +3898,6 @@ h2 {
     display: none;
   }
 }
+.button--primary:hover{
+ background-color: white !important;
+}
