@@ -3838,6 +3838,6 @@ h2 {
   color: white;
 }
 .mega-menu__list {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: grid !important;
+  grid-template-columns: repeat(3, 1fr) !important;
 }
