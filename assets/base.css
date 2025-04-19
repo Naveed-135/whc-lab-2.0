@@ -3890,7 +3890,9 @@ h2 {
 }
 
 
-
+p{
+  font-family: 'Poppins' !important;
+}
 
 
 @media(max-width:1024px){
