@@ -3921,10 +3921,10 @@ h2 {
     font-size: 36px;
 
   }
-  .overlay-text-main{
+  .overlay-text-main , .overlay-text-sub{
     font-size: 20px;
     line-height: 26px;
     font-weight: 600;
-    
+
   }
 }
