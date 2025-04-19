@@ -3707,4 +3707,17 @@ color: white;
 }
 .custom-newsletter{
   max-width: 692px;
+  margin: auto;
+}
+.custom-newsletter h2{
+  font-size: 48px;
+  line-height: 60px;
+  font-weight: 700 !important;
+  color: white;
+}
+.newsletter__subheading p{
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 500;
+  color: white;
 }
