@@ -3933,6 +3933,6 @@ h2 {
     flex-direction: column;
   }
   .image-with-text__grid{
-    gap:32px;
+    gap:32px !important;
   }
 }
