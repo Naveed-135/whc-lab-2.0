@@ -3698,7 +3698,7 @@ details-disclosure > details {
   --border-offset: none;
 }
 .button--primary {
-  background: #b4d36e;
+  background-color: #b4d36e;
   color: #0b2848;
 }
 .banner__text p {
