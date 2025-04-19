@@ -3888,3 +3888,13 @@ h2 {
   gap: 32px;
   align-items: center;
 }
+
+
+
+
+
+@media(max-width:1024px){
+  .header-button{
+    display: none;
+  }
+}
