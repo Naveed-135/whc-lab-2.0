@@ -270,7 +270,8 @@
         ".image-with-text__text--caption {color: #0b2848; padding: 6px 12px; background: #e0f8ac; font-size: 14px; line-height: 20px; border-radius: 50px; width: fit-content;}",
         "h2 {color: #0b2848; font-size: 36px; font-weight: 700; line-height: 48px;}",
         ".dic-li {gap: 4px;}",
-        "p {font-size: 18px;}"
+        "p {font-size: 18px;}",
+        ".image-with-text__text-item{padding-left:64px}"
       ],
       "settings": {
         "image": "shopify://shop_images/Frame_481612.png",
