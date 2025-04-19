@@ -3875,6 +3875,7 @@ h2 {
   border: 1px solid #0b2848 !important;
   background: transparent !important;
   border-radius: 50px !important;
+  cursor: pointer;
 }
 .custom-header{
   display: flex;
