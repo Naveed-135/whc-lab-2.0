@@ -94,28 +94,47 @@
 </nav>
 
 <script>
-  document.querySelectorAll('.mega-menu').forEach(details => {
-    const summary = details.querySelector('summary');
+  document.addEventListener("DOMContentLoaded", function () {
+    const menus = document.querySelectorAll(".mega-menu");
 
-    summary.addEventListener('mouseenter', () => {
-      details.setAttribute('open', 'true');
-      summary.setAttribute('aria-expanded', 'true');
-    });
+    menus.forEach((details) => {
+      const summary = details.querySelector("summary");
 
-    summary.addEventListener('mouseleave', () => {
-      details.removeAttribute('open');
-      summary.setAttribute('aria-expanded', 'false');
-    });
+      summary.addEventListener("mouseenter", () => {
+        details.setAttribute("open", "true");
+        summary.setAttribute("aria-expanded", "true");
+      });
 
-    // Optional: If you want the whole details area to stay open while hovering over the menu
-    details.addEventListener('mouseenter', () => {
-      details.setAttribute('open', 'true');
-      summary.setAttribute('aria-expanded', 'true');
-    });
+      // Optional: Allow keyboard focus and click to also open
+      summary.addEventListener("click", (e) => {
+        e.preventDefault(); // Prevent default toggle
+        details.setAttribute("open", "true");
+        summary.setAttribute("aria-expanded", "true");
+      });
 
-    details.addEventListener('mouseleave', () => {
-      details.removeAttribute('open');
-      summary.setAttribute('aria-expanded', 'false');
+      // Close menu when clicking or hovering *outside* the menu
+      document.addEventListener("click", (e) => {
+        if (!details.contains(e.target)) {
+          details.removeAttribute("open");
+          summary.setAttribute("aria-expanded", "false");
+        }
+      });
+
+      document.addEventListener("mousemove", (e) => {
+        // Close only if the mouse is not within the details block
+        const rect = details.getBoundingClientRect();
+        const within =
+          e.clientX >= rect.left &&
+          e.clientX <= rect.right &&
+          e.clientY >= rect.top &&
+          e.clientY <= rect.bottom;
+
+        if (!within && !details.matches(":hover")) {
+          details.removeAttribute("open");
+          summary.setAttribute("aria-expanded", "false");
+        }
+      });
     });
   });
 </script>
+
