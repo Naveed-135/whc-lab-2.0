@@ -1817,8 +1817,7 @@ details[open] > .share-button__fallback {
   /* height: 4.4rem; */
   justify-content: center;
   white-space: nowrap;
-  gap: 16px;
-  align-items: center;
+  
 
   /* overflow: hidden; */
   padding: 0;
@@ -3819,4 +3818,6 @@ h2 {
 
 .newsletter-form__field-wrapper {
   display: flex;
+  gap: 16px;
+  align-items: center;
 }
