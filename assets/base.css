@@ -3851,3 +3851,6 @@ h2 {
   border-radius: 8px;
   background: var(--Secondary, #b4d36e);
 }
+.mega-menu__link--level-2{
+  text-decoration: none;
+}
