@@ -3938,4 +3938,8 @@ h2 {
   .newsletter-form__field-wrapper{
     flex-direction: column;
   }
+  .newsletter__wrapper {
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+  }
 }
