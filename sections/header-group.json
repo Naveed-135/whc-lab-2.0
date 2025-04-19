@@ -14,7 +14,7 @@
     "header": {
       "type": "header",
       "custom_css": [
-        ".buttonbutton--secondary{width: 138px; height:48px; white-space: nowrap;}"
+        ".buttonbutton--secondary {width: 138px !important ; height: 48px !important; white-space: nowrap;}"
       ],
       "settings": {
         "logo_position": "middle-left",
