@@ -3852,5 +3852,5 @@ h2 {
   background: var(--Secondary, #b4d36e);
 }
 .mega-menu__link--level-2{
-  text-decoration: none;
+  text-decoration: none !important;
 }
