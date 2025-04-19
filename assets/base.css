@@ -3698,8 +3698,14 @@ details-disclosure > details {
   --border-offset: none;
 }
 .button--primary {
-  background-color: #b4d36e;
+  background-color: #b4d36e !important;
   color: #0b2848;
+  display: inline-flex;
+padding: 20px 42px;
+justify-content: center;
+align-items: center;
+gap: 16px;
+border-radius: 50px;
 }
 .banner__text p {
   border: 1px solid;
