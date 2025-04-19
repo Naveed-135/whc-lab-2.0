@@ -13,7 +13,9 @@
   "sections": {
     "header": {
       "type": "header",
-      "custom_css": [],
+      "custom_css": [
+        "span {font-size: 14px; line-height: 18px; font-weight: 500;}"
+      ],
       "settings": {
         "logo_position": "middle-left",
         "mobile_logo_position": "center",
