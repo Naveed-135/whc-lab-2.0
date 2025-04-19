@@ -3914,7 +3914,7 @@ h2 {
 
 @media(max-width:600px){
   .banner__box{
-    padding-top: 133px;
-    padding-bottom: 133px;
+    padding-top: 133px !important;
+    padding-bottom: 133px !important;
   }
 }
