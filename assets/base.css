@@ -3956,7 +3956,7 @@ p{
 
 
 
-@media (min-width:768px) and (max-width:1024px){
+@media (min-width:768px) and (max-width:1023px){
   #shopify-section-template--24889399574852__custom_liquid_GfAhbE .parent {
     grid-template-columns: repeat(2, 1fr) !important;
   }
