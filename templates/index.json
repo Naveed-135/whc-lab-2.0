@@ -496,6 +496,9 @@
         "paragraph_DBVD9e",
         "email_form_JUa3rK"
       ],
+      "custom_css": [
+        "@media(max-width:600px){.button--primary{width:100%; }}"
+      ],
       "settings": {
         "background_image": "shopify://shop_images/CTA_Block.png",
         "color_scheme": "",
