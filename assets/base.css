@@ -3723,3 +3723,7 @@ color: white;
   color: white;
   margin-bottom: 32px;
 }
+
+.newsletter-form__field-wrapper{
+  display: flex;
+}
