@@ -4119,12 +4119,12 @@ ul#HeaderMenu-MenuList-2 > li {
   background-repeat: no-repeat;
 }
 
-#HeaderMenu-solutions-human-health-nutrient {
+#HeaderMenu-solutions-human-health-nutrient , #HeaderDrawer-solutions-human-health-nutrient{
   position: relative;
   padding-left: 40px;
 }
 
-#HeaderMenu-solutions-human-health-nutrient::before {
+#HeaderMenu-solutions-human-health-nutrient::before , #HeaderDrawer-solutions-human-health-nutrient::before {
   content: "";
   position: absolute;
   left: 2px;
