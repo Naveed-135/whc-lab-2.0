@@ -14,7 +14,8 @@
     "footer": {
       "type": "footer",
       "custom_css": [
-        "a {color: #53627a; text-decoration: none;}"
+        "a {color: #53627a; text-decoration: none;}",
+        ".button--primary:hover {border: 1px solid #0B2848;}"
       ],
       "settings": {
         "footer_image": "shopify://shop_images/image_3_1.png",
