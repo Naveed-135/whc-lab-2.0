@@ -3991,12 +3991,12 @@ ul#HeaderMenu-MenuList-2 > li {
   padding-left: 30px;
 }
 
-#HeaderMenu-solutions-brewing-distilling {
+#HeaderMenu-solutions-brewing-distilling ,#HeaderDrawer-solutions-brewing-distilling {
   position: relative;
   padding-left: 40px;
 }
 
-#HeaderMenu-solutions-brewing-distilling::before {
+#HeaderMenu-solutions-brewing-distilling::before , #HeaderDrawer-solutions-brewing-distilling::before{
   content: "";
   position: absolute;
   left: 2px;
@@ -4010,12 +4010,12 @@ ul#HeaderMenu-MenuList-2 > li {
 }
 
 
-#HeaderMenu-solutions-biofuel {
+#HeaderMenu-solutions-biofuel ,#HeaderDrawer-solutions-biofuel {
   position: relative;
   padding-left: 40px;
 }
 
-#HeaderMenu-solutions-biofuel::before {
+#HeaderMenu-solutions-biofuel::before ,#HeaderDrawer-solutions-biofuel::before{
   content: "";
   position: absolute;
   left: 2px;
@@ -4029,12 +4029,12 @@ ul#HeaderMenu-MenuList-2 > li {
 }
 
 
-#HeaderMenu-solutions-animal-health-nutrient {
+#HeaderMenu-solutions-animal-health-nutrient ,#HeaderDrawer-solutions-animal-health-nutrient{
   position: relative;
   padding-left: 40px;
 }
 
-#HeaderMenu-solutions-animal-health-nutrient::before {
+#HeaderMenu-solutions-animal-health-nutrient::before , #HeaderDrawer-solutions-animal-health-nutrient::before{
   content: "";
   position: absolute;
   left: 2px;
@@ -4047,12 +4047,12 @@ ul#HeaderMenu-MenuList-2 > li {
   background-repeat: no-repeat;
 }
 
-#HeaderMenu-solutions-enzymes {
+#HeaderMenu-solutions-enzymes ,#HeaderDrawer-solutions-enzymes{
   position: relative;
   padding-left: 40px;
 }
 
-#HeaderMenu-solutions-enzymes::before {
+#HeaderMenu-solutions-enzymes::before , #HeaderDrawer-solutions-enzymes::before{
   content: "";
   position: absolute;
   left: 2px;
@@ -4065,12 +4065,12 @@ ul#HeaderMenu-MenuList-2 > li {
   background-repeat: no-repeat;
 }
 
-#HeaderMenu-solutions-contract-manufacturing {
+#HeaderMenu-solutions-contract-manufacturing , #HeaderDrawer-solutions-contract-manufacturing{
   position: relative;
   padding-left: 40px;
 }
 
-#HeaderMenu-solutions-contract-manufacturing::before {
+#HeaderMenu-solutions-contract-manufacturing::before ,#HeaderDrawer-solutions-contract-manufacturing::before {
   content: "";
   position: absolute;
   left: 2px;
@@ -4083,12 +4083,12 @@ ul#HeaderMenu-MenuList-2 > li {
   background-repeat: no-repeat;
 }
 
-#HeaderMenu-solutions-ingredients-flavour {
+#HeaderMenu-solutions-ingredients-flavour ,#HeaderDrawer-solutions-ingredients-flavour {
   position: relative;
   padding-left: 40px;
 }
 
-#HeaderMenu-solutions-ingredients-flavour::before {
+#HeaderMenu-solutions-ingredients-flavour::before  ,#HeaderDrawer-solutions-ingredients-flavour::before {
   content: "";
   position: absolute;
   left: 2px;
