@@ -3973,4 +3973,7 @@ h2 {
   .image-with-text__content{
     padding-bottom: 1px;
   }
+  .image-with-text__media-item{
+    aspect-ratio: 1/1;
+  }
 }
