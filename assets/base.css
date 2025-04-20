@@ -3970,4 +3970,7 @@ h2 {
     flex-direction: column;
     gap: 30px !important;
   }
+  .image-with-text__content{
+    padding-bottom: 1px;
+  }
 }
