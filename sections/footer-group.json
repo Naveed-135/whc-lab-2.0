@@ -14,7 +14,7 @@
     "footer": {
       "type": "footer",
       "custom_css": [
-        "a {color: #53627A;}"
+        "a {color: #53627a;}"
       ],
       "settings": {
         "footer_image": "shopify://shop_images/image_3_1.png",
@@ -29,7 +29,7 @@
         "column2_menu": "footer-menu-2",
         "column3_title": "",
         "column3_menu": "footer-menu-3",
-        "location": "Jakarta – Indonesia",
+        "location": "",
         "copyright_text": "Copyright © 2025 who-lab group | Designed by <a href=\"https://developios.com\" target=\"_blank\" title=\"https://developios.com\">Developios</a>"
       }
     }
