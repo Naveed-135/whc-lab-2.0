@@ -500,7 +500,8 @@
       "custom_css": [
         "@media (max-width: 600px) {.button--primary {width: 100%; }}",
         ".field__input {height: 100%; color: white;}",
-        ".field__label {margin-top: 6px;}"
+        ".field__label {margin-top: 6px;}",
+        ".newsletter-form__message{color: white !important;}"
       ],
       "settings": {
         "background_image": "shopify://shop_images/CTA_Block.png",
