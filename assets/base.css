@@ -4341,6 +4341,6 @@ ul#HeaderMenu-MenuList-2 > li {
 
 
 
-summary .list-menu__item {
+summary.list-menu__item {
   padding-right: 1.7rem !important;
 }
