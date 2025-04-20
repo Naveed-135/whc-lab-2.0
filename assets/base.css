@@ -4162,7 +4162,9 @@ ul#HeaderMenu-MenuList-2 > li {
 #NewsletterForm--template--24889399574852__newsletter_XJJjGp{
   color: white !important;
 }
-
+summary.list-menu__item {
+  padding-right: 1.7rem !important;
+}
 
 
 
