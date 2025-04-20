@@ -3881,6 +3881,7 @@ h2 {
   background: transparent !important;
   border-radius: 50px !important;
   cursor: pointer;
+  transition: all 0.3s ease !important;
 }
 .custom-header{
   display: flex;
