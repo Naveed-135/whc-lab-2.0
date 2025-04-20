@@ -201,7 +201,7 @@
       ],
       "custom_css": [
         "h3 {font-size: 20px; line-height: 26px; color: #0b2848; font-weight: 700;}",
-        ".animate-arrow {color: #0B2848; font-size: 16px; line-height: 24px;}"
+        ".animate-arrow {color: #0b2848; font-size: 16px; line-height: 24px; font-family: 'Poppins';}"
       ],
       "settings": {
         "title": "",
