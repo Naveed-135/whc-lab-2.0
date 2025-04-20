@@ -3798,17 +3798,17 @@ h2 {
   .image-with-text__text-item {
     width: 60% !important;
   }
-  .button--secondary {
-    font-size: 18px !important;
-    line-height: 24px !important;
-    color: #0b2848 !important;
-    width: 188px !important;
-    height: 64px !important;
-    border: 1px solid #0b2848 !important;
-    transition: all 0.4s ease !important;
-  }
+ 
 }
-
+.button--secondary {
+  font-size: 18px !important;
+  line-height: 24px !important;
+  color: #0b2848 !important;
+  width: 188px !important;
+  height: 64px !important;
+  border: 1px solid #0b2848 !important;
+  transition: all 0.4s ease !important;
+}
 #shopify-section-sections--24889399214404__footer {
   background: #fafbfb;
 }
@@ -3922,6 +3922,9 @@ h2 {
 
 
 @media(max-width:600px){
+  .image-with-text__content{
+    padding-bottom: 1px;
+  }
   .banner__box{
     padding-top: 133px !important;
     padding-bottom: 133px !important;
