@@ -4136,3 +4136,10 @@ ul#HeaderMenu-MenuList-2 > li {
   background-size: contain;
   background-repeat: no-repeat;
 }
+
+
+@media (max-width: 768px) {
+  .test{
+    display: none;
+  }
+}
