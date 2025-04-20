@@ -201,7 +201,7 @@
       ],
       "custom_css": [
         "h3 {font-size: 20px; line-height: 26px; color: #0b2848; font-weight: 700;}",
-        ".animate-arrow {color: #0b2848; font-size: 16px; line-height: 24px; font-family: 'Poppins';}"
+        ".animate-arrow {color: #0b2848; font-size: 16px; line-height: 24px; font-family: \"Poppins\";}"
       ],
       "settings": {
         "title": "",
@@ -499,7 +499,8 @@
       ],
       "custom_css": [
         "@media (max-width: 600px) {.button--primary {width: 100%; }}",
-        ".field__input {height: 100%;}"
+        ".field__input {height: 100%; color: white;}",
+        ".field__label {margin-top: 6px;}"
       ],
       "settings": {
         "background_image": "shopify://shop_images/CTA_Block.png",
