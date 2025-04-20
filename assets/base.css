@@ -3963,4 +3963,11 @@ h2 {
   .left-image , .right-column{
     width: 100% !important;
   }
+  .image-with-text__text-item , .image-with-text__media-item {
+    width: 100% !important;
+  }
+  .image-with-text__grid{
+    flex-direction: column;
+    gap: 30px;
+  }
 }
