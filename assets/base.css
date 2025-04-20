@@ -3729,6 +3729,7 @@ details-disclosure > details {
   line-height: 20px;
   border-radius: 50px;
   width: fit-content;
+  font-weight: 400 !important;
 }
 .flex {
   display: flex;
