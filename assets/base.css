@@ -4101,12 +4101,12 @@ ul#HeaderMenu-MenuList-2 > li {
   background-repeat: no-repeat;
 }
 
-#HeaderMenu-solutions-pharma{
+#HeaderMenu-solutions-pharma , #HeaderDrawer-solutions-pharma{
   position: relative;
   padding-left: 40px;
 }
 
-#HeaderMenu-solutions-pharma::before {
+#HeaderMenu-solutions-pharma::before , #HeaderDrawer-solutions-pharma::before {
   content: "";
   position: absolute;
   left: 2px;
