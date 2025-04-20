@@ -147,7 +147,7 @@
             "title": "Biofuels",
             "text": "<p>Sustainable energy solutions with innovative biofuel technology.</p>",
             "link_label": "Learn More",
-            "link": ""
+            "link": "shopify://collections"
           }
         },
         "column_3hQKjc": {
@@ -157,7 +157,7 @@
             "title": "Animal Health",
             "text": "<p>Enzyme-based nutrition for healthier, more productive livestock.</p>",
             "link_label": "Learn More",
-            "link": ""
+            "link": "shopify://collections"
           }
         },
         "column_tQP3T8": {
@@ -167,7 +167,7 @@
             "title": "Enzymes",
             "text": "<p>Specialized enzyme solutions for food, processing, and biofuels.</p>",
             "link_label": "Learn More",
-            "link": ""
+            "link": "shopify://collections"
           }
         },
         "column_DQhmMi": {
@@ -177,7 +177,7 @@
             "title": "Contract Manufacturing",
             "text": "<p>End-to-end biotech manufacturing with high standards.</p>",
             "link_label": "Learn More",
-            "link": ""
+            "link": "shopify://collections"
           }
         },
         "column_dz8TNf": {
@@ -187,7 +187,7 @@
             "title": "Ingredients & Flavour",
             "text": "<p>High-quality ingredients and flavor solutions for better taste.</p>",
             "link_label": "Learn More",
-            "link": ""
+            "link": "shopify://collections"
           }
         }
       },
