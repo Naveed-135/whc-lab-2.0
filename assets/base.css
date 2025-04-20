@@ -3968,6 +3968,6 @@ h2 {
   }
   .image-with-text__grid{
     flex-direction: column;
-    gap: 30px;
+    gap: 30px !important;
   }
 }
