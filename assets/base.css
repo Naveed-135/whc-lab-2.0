@@ -3712,6 +3712,7 @@ details-disclosure > details {
   font-size: 18px;
   line-height: 24px;
   font-weight: 500;
+  transition: all 0.4s ease !important;
 }
 .banner__text p {
   border: 1px solid;
@@ -3804,6 +3805,7 @@ h2 {
     width: 188px !important;
     height: 64px !important;
     border: 1px solid #0b2848 !important;
+    transition: all 0.4s ease !important;
   }
 }
 
