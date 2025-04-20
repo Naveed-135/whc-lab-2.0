@@ -14,7 +14,7 @@
     "footer": {
       "type": "footer",
       "custom_css": [
-        "a {color: #53627a;}"
+        "a {color: #53627a; text-decoration: none;}"
       ],
       "settings": {
         "footer_image": "shopify://shop_images/image_3_1.png",
