@@ -4145,4 +4145,7 @@ ul#HeaderMenu-MenuList-2 > li {
   .custom-header{
     flex-direction: row-reverse;
   }
+  .header{
+    padding: 0px 2rem !important;
+  }
 }
