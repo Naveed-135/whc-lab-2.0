@@ -1,7 +1,7 @@
 <footer class="footer page-width">
   <div class="footer-top">
     {% if section.settings.footer_image %}
-      <img src="{{ section.settings.footer_image | image_url: width: 400 }}" alt="Footer Image" class="footer-logo">
+   <a href="/">  <img src="{{ section.settings.footer_image | image_url: width: 400 }}" alt="Footer Image" class="footer-logo"> </a> 
     {% endif %}
     <div class="contact">
       <a href="{{ section.settings.contact_link }}" class="contact-link">
