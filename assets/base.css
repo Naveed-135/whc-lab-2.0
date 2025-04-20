@@ -4142,4 +4142,7 @@ ul#HeaderMenu-MenuList-2 > li {
   .test{
     display: none;
   }
+  .custom-header{
+    flex-direction: row-reverse;
+  }
 }
