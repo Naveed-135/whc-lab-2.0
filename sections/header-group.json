@@ -14,7 +14,7 @@
     "header": {
       "type": "header",
       "custom_css": [
-        "span {font-size: 14px; line-height: 18px; font-weight: 400;}"
+        "span {font-size: 12px; line-height: 18px; font-weight: 400;}"
       ],
       "settings": {
         "logo_position": "middle-left",
