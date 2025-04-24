@@ -79,7 +79,12 @@
   .left-image:hover .arrow svg {
     background-color: white;
   }
-  
+  .top-image-block:hover svg path {
+    stroke: black;
+  }
+  .top-image-block:hover .arrow svg {
+    background-color: white;
+  }
 </style>
 
 <div class="research-section page-width">
@@ -104,7 +109,7 @@
   <!-- Right Column -->
   <div class="right-column">
     <!-- Top Right Image -->
-    <div class="image-block">
+    <div class="image-block top-image-block">
       <a href="{{ section.settings.top_right_link }}">
         <img src="{{ section.settings.top_right_image | image_url: width: 400 }}" alt="Top Right">
         <div class="overlay">
@@ -122,7 +127,7 @@
     </div>
 
     <!-- Bottom Right Image -->
-    <div class="image-block">
+    <div class="image-block bottom-image-block">
       <a href="{{ section.settings.bottom_right_link }}">
         <img src="{{ section.settings.bottom_right_image | image_url: width: 400 }}" alt="Bottom Right">
         <div class="overlay">
