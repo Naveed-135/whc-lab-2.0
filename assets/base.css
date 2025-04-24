@@ -3718,7 +3718,7 @@ details-disclosure > details {
   border: 1px solid;
   max-width: fit-content;
   margin: auto;
-  padding: 6px 12px;
+  padding: 3px 12px;
   border-radius: 50px;
   font-size: 14px;
 }
