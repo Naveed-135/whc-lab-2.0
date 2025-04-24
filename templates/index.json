@@ -133,7 +133,7 @@
         "column_VnFpez": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Rectangle_4347.png",
+            "image": "shopify://shop_images/Rectangle_4347_b2585b3d-7be6-4fd9-a3b7-2bef1bd8e4d6.png",
             "title": "Brewing & Distilling",
             "text": "<p>High-quality brewing and distilling with advanced enzyme technology.</p>",
             "link_label": "Learn More",
@@ -501,7 +501,7 @@
         "@media (max-width: 600px) {.button--primary {width: 100%; }}",
         ".field__input {height: 100%; color: white;}",
         ".field__label {margin-top: 6px;}",
-        ".newsletter-form__message{color: white !important;}"
+        ".newsletter-form__message {color: white !important;}"
       ],
       "settings": {
         "background_image": "shopify://shop_images/CTA_Block.png",
